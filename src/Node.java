@@ -2,7 +2,8 @@
 public class Node
 {
 	public int severity, count;
-	private String name, property, date, summary;
+	public String property;
+	private String name, date, summary;
 	
 	public Node(int xSeverity, int xCount, String xName, String xProperty, 
 			String xDate, String xSummary)
@@ -14,5 +15,6 @@ public class Node
 		date = xDate;
 		summary = xSummary;
 	}
+	
 	
 }
